@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./files/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>E9 checking</title>
+</head>
+
+<body>
+
+    <section class="login" id="login">
+        <div class="formControl">
+            <label for="number">Please enter unique ID number for check!</label>
+            <input type="text" id="number">
+        </div>
+
+        <div class="loginBtn">
+            <button id="btn">
+                Check
+            </button>
+        </div>
+    </section>
+
+
+    <main>
+        <section id="1" class="result">
+            <div class="header">
+                <div class="left">
+                    <img src="./files/Screenshot_2.png" alt="">
+                </div>
+
+                <div class="middle">
+                    <table id="customers">
+                        <tr>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>Date of birth</th>
+                            <th>ID</th>
+                        </tr>
+                        <tr>
+                            <td>Komiljon</td>
+                            <td>Juraev</td>
+                            <td>17.02.1991</td>
+                            <td>2804384</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="right">
+                    <h2>Checking results for appliers</h2>
+                </div>
+            </div>
+
+            <div class="body">
+                <table id="customers1">
+                    <tr>
+                        <th>PASS OR FAIL</th>
+                        <th>NATION</th>
+                        <th>INDUSTRY</th>
+                        <th>NAME</th>
+                        <th>DATE OF BIRTH</th>
+                        <th>ID CARD/NO</th>
+                    </tr>
+                    <tr>
+                        <td>Pass</td>
+                        <td>UZBEKISTAN</td>
+                        <td></td>
+                        <td>Komiljon</td>
+                        <td>17.02.1991</td>
+                        <td>FA2804384</td>
+                    </tr>
+                </table>
+                <h3>Score</h3>
+                <table id="customers2">
+                    <tr>
+                        <th>Total score</th>
+                        <th>EPS Topik</th>
+                        <th>Skills Test</th>
+                        <th>Competency test</th>
+                        <th>YYYY-MM-DD</th>
+                        <th>PRIMARY KEY</th>
+                    </tr>
+                    <tr>
+                        <td>92.1</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>2804384</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright © 2022 Ministry of KOREA</p>
+        </footer>
+    </main>
+
+
+
+</body>
+
+<script>
+    $('#btn').click(function () {
+        if ($('#number').val() == 2804384) {
+            document.getElementById("login").style.display = "none";
+            document.getElementById("1").style.display = "block";
+        } else {
+            alert('Error! This is ID not created!')
+        }
+    });
+</script>
+
+</html>
