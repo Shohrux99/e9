@@ -69,25 +69,25 @@ button {
 
 #customers td,
 #customers th {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(156, 156, 156);
     padding: 8px;
     text-align: center;
 }
 
 #customers tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 #customers tr:hover {
-    background-color: #ddd;
+    background-color: #fff;
 }
 
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #8a8a8a;
-    color: white;
+    background-color: #f0f0f0;
+    color: #000;
 }
 
 /* --------------------- */
@@ -102,25 +102,25 @@ button {
 
 #customers1 td,
 #customers1 th {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(156, 156, 156);
     padding: 8px;
     text-align: center;
 }
 
 #customers1 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 #customers1 tr:hover {
-    background-color: #ddd;
+    background-color: #fff;
 }
 
 #customers1 th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #8a8a8a;
-    color: white;
+    background-color: #f0f0f0;
+    color: #000;
 }
 
 /* ---------------- */
@@ -135,25 +135,25 @@ button {
 
 #customers2 td,
 #customers2 th {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(156, 156, 156);
     padding: 8px;
     text-align: center;
 }
 
 #customers2 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 #customers2 tr:hover {
-    background-color: #ddd;
+    background-color: #fff;
 }
 
 #customers2 th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #8a8a8a;
-    color: white;
+    background-color: #f0f0f0;
+    color: #000;
 }
 
 .left {
